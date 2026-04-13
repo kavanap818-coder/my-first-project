@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>GCD Calculator</title>
+</head>
+<body>
+
+<h2>GCD Calculator</h2>
+
+<label>Enter First Number:</label>
+<input type="number" id="num1"><br><br>
+
+<label>Enter Second Number:</label>
+<input type="number" id="num2"><br><br>
+
+<button onclick="findGCD()">Find GCD</button>
+
+<h3 id="result"></h3>
+
+<script>
+function findGCD() {
+    let a = document.getElementById("num1").value;
+    let b = document.getElementById("num2").value;
+
+    a = parseInt(a);
+    b = parseInt(b);
+
+    // Euclidean Algorithm
+    while (b != 0) {
+        let temp = b;
+        b = a % b;
+        a = temp;
+    }
+
+    document.getElementById("result").innerHTML = "GCD is: " + a;
+}
+</script>
+
+</body>
+</html>
