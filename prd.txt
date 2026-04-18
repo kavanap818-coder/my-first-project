@@ -1,0 +1,78 @@
+# Portfolio Website – SRS (Software Requirements Specification)
+
+## 1. Introduction
+
+### 1.1 Purpose
+
+This document defines the requirements for a personal portfolio website that showcases the user’s profile, skills, projects, experience, and certifications.
+
+### 1.2 Scope
+
+# PRD (Product Requirements Document)
+
+## 1. Product Overview
+
+A modern portfolio website designed to highlight personal achievements, skills, and projects with engaging UI/UX.
+
+## 2. Goals
+
+* Build a strong digital presence
+* Attract recruiters
+* Showcase creativity and technical skills
+
+## 3. Features
+
+### 3.1 Core Features
+
+* Responsive layout
+* Animated UI
+* Project showcase
+* Contact form
+
+### 3.2 Advanced Features
+
+* Dark mode toggle
+* Download resume button
+* Interactive skill charts
+
+## 4. User Flow
+
+1. User lands on Home page
+2. Scrolls to About
+3. Views Skills and Projects
+4. Checks Experience & Certificates
+5. Contacts via form
+
+## 5. Success Metrics
+
+* Number of visitors
+* Time spent on site
+* Contact form submissions
+
+## 6. Future Enhancements
+
+* Blog section
+* Admin panel
+* Portfolio analytics
+
+---
+
+## 7. Tech Stack
+
+* HTML, CSS, JavaScript
+* Optional: React.js
+* Hosting: GitHub Pages / Netlify
+
+---
+
+## 8. Timeline
+
+* Design: 2 days
+* Development: 4 days
+* Testing: 1 day
+
+---
+
+## 9. Conclusion
+
+This portfolio will represent the user professionally with modern design, animations, and structured content.
